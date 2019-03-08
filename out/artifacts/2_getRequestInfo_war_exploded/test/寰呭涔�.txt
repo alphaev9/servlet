@@ -1,0 +1,4 @@
+1、基于netty的异步响应式框架：Vert.x
+2、springboot
+3、web层有两种风格：基于请求的比如springMVC，Struts；基于组件的比如JSF、Tapestry等
+4、应用：离散型操作，可以自由导航；流程性应用，受控导航

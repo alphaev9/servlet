@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="2_getRequestInfo" />
+        <module name="4_view" />
+        <module name="commonFilter" />
+        <module name="test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="2_getRequestInfo" target="1.8" />
+      <module name="4_view" target="1.8" />
+      <module name="5_myweb" target="1.8" />
+      <module name="6_filter" target="1.8" />
+      <module name="commonFilter" target="1.8" />
+      <module name="crypto" target="1.8" />
+      <module name="encodingFilter" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="webFramwork" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

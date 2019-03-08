@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="5_dispatcher:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/5_dispatcher_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="5_dispatcher" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="5_dispatcher/web/Web" />
+    </root>
+  </artifact>
+</component>

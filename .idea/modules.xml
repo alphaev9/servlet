@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_mapping/1_mapping.iml" filepath="$PROJECT_DIR$/1_mapping/1_mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_getRequestInfo/2_getRequestInfo.iml" filepath="$PROJECT_DIR$/2_getRequestInfo/2_getRequestInfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_typeConvert/3_typeConvert.iml" filepath="$PROJECT_DIR$/3_typeConvert/3_typeConvert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_view/4_view.iml" filepath="$PROJECT_DIR$/4_view/4_view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_dispatcher/5_dispatcher.iml" filepath="$PROJECT_DIR$/5_dispatcher/5_dispatcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_filter/6_filter.iml" filepath="$PROJECT_DIR$/6_filter/6_filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_filter/commonFilter/commonFilter.iml" filepath="$PROJECT_DIR$/6_filter/commonFilter/commonFilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_filter/test/test.iml" filepath="$PROJECT_DIR$/6_filter/test/test.iml" />
+    </modules>
+  </component>
+</project>
