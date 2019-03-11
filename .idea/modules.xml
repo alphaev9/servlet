@@ -8,8 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/4_view/4_view.iml" filepath="$PROJECT_DIR$/4_view/4_view.iml" />
       <module fileurl="file://$PROJECT_DIR$/5_dispatcher/5_dispatcher.iml" filepath="$PROJECT_DIR$/5_dispatcher/5_dispatcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/6_filter/6_filter.iml" filepath="$PROJECT_DIR$/6_filter/6_filter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/6_filter/commonFilter/commonFilter.iml" filepath="$PROJECT_DIR$/6_filter/commonFilter/commonFilter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/6_filter/test/test.iml" filepath="$PROJECT_DIR$/6_filter/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7_listener/7_listener.iml" filepath="$PROJECT_DIR$/7_listener/7_listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>

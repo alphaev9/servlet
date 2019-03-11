@@ -15,7 +15,15 @@
         <option value="$PROJECT_DIR$/6_filter/pom.xml" />
         <option value="$PROJECT_DIR$/6_filter/encodingFilter/pom.xml" />
         <option value="$PROJECT_DIR$/6_filter/test/pom.xml" />
+        <option value="$PROJECT_DIR$/listener/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/7_listener/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/test/filter/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
