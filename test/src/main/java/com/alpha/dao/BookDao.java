@@ -1,16 +1,25 @@
 package com.alpha.dao;
 
+import com.alpha.component.DataSource;
+import com.alpha.annotation.Dao;
+import com.alpha.annotation.Inject;
 import com.alpha.entity.Book;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+@Dao
 public class BookDao {
-    private static Connection getConnection() throws SQLException, ClassNotFoundException {
-        Class.forName("com.mysql.jdbc.Driver");
-        Connection connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/books?characterEncoding=utf8", "root", "123456");
-        return connection;
+
+    @Inject
+    private static DataSource dataSource;
+
+    private static Connection getConnection() {
+        return dataSource.getConnection();
     }
 
     public static List<Book> queryByAuthor(String author) throws SQLException, ClassNotFoundException {

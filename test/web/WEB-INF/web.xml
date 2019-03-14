@@ -11,7 +11,28 @@
         <filter-name>encoding</filter-name>
         <url-pattern>/query</url-pattern>
     </filter-mapping>
-   <!-- <listener>
+    <listener>
         <listener-class>com.alpha.listeners.SearchRankingListener</listener-class>
-    </listener>-->
+    </listener>
+
+    <listener>
+        <listener-class>com.alpha.listeners.DataSourceProcessListener</listener-class>
+    </listener>
+
+    <context-param>
+        <param-name>config</param-name>
+        <param-value>product</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>suggestion</servlet-name>
+        <servlet-class>com.alpha.backgroudTask.PurchaseSuggest</servlet-class>
+        <load-on-startup>1</load-on-startup>
+        <init-param>
+            <param-name>time</param-name>
+            <param-value>19:46:00</param-value>
+        </init-param>
+    </servlet>
+
+
 </web-app>

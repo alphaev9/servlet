@@ -1,18 +1,39 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="test:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/test_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/test/target/queryBook</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>test</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="test" />
-          <element id="file-copy" path="$PROJECT_DIR$/test/src/main/resources/config.properties" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.27" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/alpha/filters/1.0/filters-1.0.jar" />
-          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/alpha/listeners/1.0-SNAPSHOT/listeners-1.0-SNAPSHOT.jar" />
+          <element id="archive" name="filters-1.0.jar">
+            <element id="module-output" name="6_filter" />
+          </element>
+          <element id="archive" name="listeners-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="7_listener" />
+          </element>
+          <element id="archive" name="backgroundTask-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="8_backgroundTask" />
+          </element>
+          <element id="archive" name="common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="common" />
+          </element>
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.5.0-b01" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
         </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/test/target/queryBook/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="test/web/Web" />
     </root>

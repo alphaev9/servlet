@@ -10,6 +10,9 @@
         <module name="4_view" />
         <module name="6_filter" />
         <module name="7_listener" />
+        <module name="8_backgroundTask" />
+        <module name="common" />
+        <module name="test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,12 +21,15 @@
       <module name="5_myweb" target="1.8" />
       <module name="6_filter" target="1.8" />
       <module name="7_listener" target="1.8" />
+      <module name="8_backgroundTask" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="commonFilter" target="1.8" />
       <module name="crypto" target="1.8" />
       <module name="encodingFilter" target="1.8" />
       <module name="filter" target="1.8" />
       <module name="listener" target="1.8" />
       <module name="listeners" target="1.8" />
+      <module name="queryBook" target="1.8" />
       <module name="test" target="1.8" />
       <module name="webFramwork" target="1.8" />
     </bytecodeTargetLevel>
