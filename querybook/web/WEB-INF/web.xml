@@ -34,5 +34,10 @@
         </init-param>
     </servlet>
 
+    <servlet>
+        <servlet-name>pushUpdate</servlet-name>
+        <servlet-class>com.alpha.backgroudTask.PushLatestUpdate</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
 
 </web-app>

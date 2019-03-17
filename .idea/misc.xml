@@ -2,8 +2,8 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/6_filter/test" />
-    <file type="web" url="file://$PROJECT_DIR$/queryBook" />
-    <file type="web" url="file://$PROJECT_DIR$/test" />
+    <file type="web" url="file://$PROJECT_DIR$/querybook" />
+    <file type="web" url="file://$PROJECT_DIR$/querybook" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -22,6 +22,8 @@
         <option value="$PROJECT_DIR$/7_listener/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/8_backgroundTask/pom.xml" />
+        <option value="$PROJECT_DIR$/websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/9_websocket/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

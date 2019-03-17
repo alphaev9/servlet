@@ -12,6 +12,10 @@
         .show {
             display: block;
         }
+
+        .warn {
+            color: red;
+        }
     </style>
 </head>
 <body>
@@ -25,16 +29,6 @@
 <c:if test="${display==null}">
     <c:set var="display" value="hide" scope="page"></c:set>
 </c:if>
-
-
-<%--<h1>Access Statistics</h1>
-<c:forEach items="${statistic}" var="recode">
-    <p>${recode.key}</p>
-    <p>${recode.value}</p>
-
-</c:forEach>
-<hr>--%>
-
 
 <div class="${display}">
     <h1>The books written by ${author}</h1>
@@ -56,6 +50,6 @@
 </div>
 <hr>
 
-
+<script src="wsChannel.js"></script>
 </body>
 </html>

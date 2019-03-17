@@ -11,8 +11,9 @@
         <module name="6_filter" />
         <module name="7_listener" />
         <module name="8_backgroundTask" />
+        <module name="9_websocket" />
         <module name="common" />
-        <module name="test" />
+        <module name="querybook" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="6_filter" target="1.8" />
       <module name="7_listener" target="1.8" />
       <module name="8_backgroundTask" target="1.8" />
+      <module name="9_websocket" target="1.8" />
       <module name="common" target="1.8" />
       <module name="commonFilter" target="1.8" />
       <module name="crypto" target="1.8" />
@@ -29,9 +31,10 @@
       <module name="filter" target="1.8" />
       <module name="listener" target="1.8" />
       <module name="listeners" target="1.8" />
+      <module name="querybook" target="1.8" />
       <module name="queryBook" target="1.8" />
-      <module name="test" target="1.8" />
       <module name="webFramwork" target="1.8" />
+      <module name="websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

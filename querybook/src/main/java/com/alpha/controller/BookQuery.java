@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -23,9 +24,13 @@ public class BookQuery extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String author = request.getParameter("author");
+
+        HttpSession session = request.getSession();
+        getServletContext().setAttribute("test", session);
+
         try {
             List<Book> books = BookDao.queryByAuthor(author);
-            request.setAttribute("author",author);
+            request.setAttribute("author", author);
             request.setAttribute("books", books);
             request.setAttribute("display", "show");
             List<String> heads = new ArrayList();

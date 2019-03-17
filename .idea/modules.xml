@@ -10,8 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/6_filter/6_filter.iml" filepath="$PROJECT_DIR$/6_filter/6_filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/7_listener/7_listener.iml" filepath="$PROJECT_DIR$/7_listener/7_listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/8_backgroundTask/8_backgroundTask.iml" filepath="$PROJECT_DIR$/8_backgroundTask/8_backgroundTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9_websocket/9_websocket.iml" filepath="$PROJECT_DIR$/9_websocket/9_websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/querybook/querybook.iml" filepath="$PROJECT_DIR$/querybook/querybook.iml" />
     </modules>
   </component>
 </project>

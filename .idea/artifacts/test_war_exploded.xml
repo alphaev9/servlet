@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="test" />
+          <element id="module-output" name="querybook" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.27" />
@@ -25,6 +25,11 @@
           <element id="archive" name="backgroundTask-1.0-SNAPSHOT.jar">
             <element id="module-output" name="8_backgroundTask" />
           </element>
+          <element id="archive" name="websocket-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="9_websocket" />
+          </element>
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
+          <element id="library" level="project" name="Maven: javax.websocket:javax.websocket-api:1.1" />
           <element id="archive" name="common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="common" />
           </element>
@@ -33,9 +38,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/test/target/queryBook/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/querybook/target/queryBook/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="test/web/Web" />
+      <element id="javaee-facet-resources" facet="querybook/web/Web" />
     </root>
   </artifact>
 </component>
